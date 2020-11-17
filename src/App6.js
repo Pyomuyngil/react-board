@@ -44,7 +44,7 @@ class App6 extends Component {
         return (
             <div>
                 <BoardForm selectedBoard={selectedBoard} onSaveData={this.handleSaveData}/>
-                <table class="ui selectable inverted table">
+                <table className="ui selectable inverted table" >
                   <thead>
                     <tr>
                         <th>No.</th>

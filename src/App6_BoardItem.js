@@ -13,7 +13,7 @@ class BoardRow extends Component {
 
     render() {
         return(
-            <tr >
+            <tr className="ui selectable inverted table">
                 <td>{this.props.row.brdno}</td>
                 <td><a onClick={this.handleSelectRow}>{this.props.row.brdtitle}</a></td>
                 <td>{this.props.row.brdwriter}</td>
