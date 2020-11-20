@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import BoardForm from './App6_BoardForm';
 import BoardItem from './App6_BoardItem';
-
 /*
     component files.
 */
@@ -50,7 +49,7 @@ class App6 extends Component {
                         <th>No.</th>
                         <th>Title</th>
                         <th>Name</th>
-                        <th>Date</th>
+                        <th className="right aligned">Date</th>
                     </tr>
                     </thead>
                     <tbody>
