@@ -29,6 +29,7 @@ class App6 extends Component {
 
     handleRemove = (brdno) => {
         this.setState({
+            maxNo : this.state.maxNo-1,
             boards: this.state.boards.filter(row => row.brdno !== brdno)
         })
     }
